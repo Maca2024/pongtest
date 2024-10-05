@@ -1,0 +1,40 @@
+/* Basisstijl voor het Pong-spel */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+    margin: 0;
+}
+
+#pong-game {
+    position: relative;
+    width: 800px;
+    height: 400px;
+    background-color: #333;
+    border: 2px solid #fff;
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+
+#paddle-left, #paddle-right {
+    position: absolute;
+    width: 20px;
+    height: 100px;
+    background-color: #fff;
+}
+
+#paddle-left {
+    left: 0;
+}
+
+#paddle-right {
+    right: 0;
+}
